@@ -1,0 +1,26 @@
+ant:
+<ant>
+  <mkdir dir="C:\Users\HP 14\OneDrive\Documents\MATLAB\ruddypp\ruddypp\ruddypp2\for_redistribution" />
+  <mkdir dir="C:\Users\HP 14\OneDrive\Documents\MATLAB\ruddypp\ruddypp\ruddypp2\for_testing" />
+</ant>
+mcc -C -o ruddypp2 -W WinMain:ruddypp2 -T link:exe -d 'C:\Users\HP 14\OneDrive\Documents\MATLAB\ruddypp\ruddypp\ruddypp2\for_testing' -v 'C:\Users\HP 14\OneDrive\Documents\MATLAB\ruddypp\ruddypp\ruddypp2.m' 
+Compiler version: 5.1 (R2014a)
+Dependency analysis by REQUIREMENTS.
+[Warning: Adding path "C:\Users\HP 14\OneDrive\Documents\MATLAB\ruddypp\ruddypp"
+to Compiler path instance.] 
+Parsing file "C:\Users\HP 14\OneDrive\Documents\MATLAB\ruddypp\ruddypp\ruddypp2.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "C:\Program Files\MATLAB\R2014a\toolbox\compiler\deploy\deployprint.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "C:\Program Files\MATLAB\R2014a\toolbox\compiler\deploy\printdlg.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 1 temporary MEX authorization files.
+Removing: 'C:\Users\HP14~1\AppData\Local\Temp\mathworks_tmp_9644_21153_9644.auth'.
+Generating file "C:\Users\HP 14\OneDrive\Documents\MATLAB\ruddypp\ruddypp\ruddypp2\for_testing\readme.txt".
+Packaging...
+Adding custom icon C:\Program Files\MATLAB\R2014a\toolbox\compiler\Resources\default_icon.ico to C:\Users\HP 14\OneDrive\Documents\MATLAB\ruddypp\ruddypp\ruddypp2\for_testing\ruddypp2.exe.
+Attempting to embed the CTF archive into the application C:\Users\HP 14\OneDrive\Documents\MATLAB\ruddypp\ruddypp\ruddypp2\for_testing\ruddypp2.exe.
+Finished embedding CTF archive. Deleting the external CTF archive.
+Creating the bundle...
+Web based installer created at C:\Users\HP 14\OneDrive\Documents\MATLAB\ruddypp\ruddypp\ruddypp2\for_redistribution\MyAppInstaller_web.exe.
+Packaging complete.
